@@ -7,8 +7,9 @@
 - Calculated monthly expenses and incorporated all requested backend features.
 
   To run the project:
-  server: python3 manage.py runserver 8007
-  celery: celery -A subscription_cost.celery worker -l info
+  
+  - server: python3 manage.py runserver 8007
+  - celery: celery -A subscription_cost.celery worker -l info
 
 ## Frontend
 
@@ -20,7 +21,7 @@
 - Integrated a calendar displaying upcoming subscription renewals.
 
   To run the project:
-  npm start
+  - npm start
 
 ## Possible Enhancements
 
