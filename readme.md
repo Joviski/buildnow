@@ -6,6 +6,10 @@
 - Developed a Celery task to handle auto-renewals and recalculate renewal dates.
 - Calculated monthly expenses and incorporated all requested backend features.
 
+  To run the project:
+  server: python3 manage.py runserver 8007
+  celery: celery -A subscription_cost.celery worker -l info
+
 ## Frontend
 
 - Built a simple React app with a minimal design while achieving most of the requested features.
@@ -14,6 +18,9 @@
   - Showed the benefits of switching to an annual subscription.
 - Visualized **monthly expenses for the last 6 months** using a bar chart.
 - Integrated a calendar displaying upcoming subscription renewals.
+
+  To run the project:
+  npm start
 
 ## Possible Enhancements
 
