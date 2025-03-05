@@ -1,0 +1,124 @@
+/* General Dashboard Styling */
+
+/* General Table Styling */
+.table-container {
+    background: white !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 23) !important;
+    margin-bottom: 20px !important;
+    overflow-x: auto !important;
+    width: 100% !important;
+}
+
+/* Table Styling */
+.table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    background: white !important;
+}
+
+.table th, .table td {
+    padding: 12px !important;
+    text-align: left !important;
+    border-bottom: 1px solid #ddd !important;
+    font-size: 14px !important;
+}
+
+.table th {
+    background: #f1f1f1 !important;
+    color: #333 !important;
+    font-weight: bold !important;
+}
+
+.table tr:hover {
+    background: #f9f9f9 !important;
+    transition: background 0.3s ease-in-out !important;
+}
+
+/* Table Borders */
+.table-bordered {
+    border: 1px solid #ddd !important;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 768px) {
+    .table th, .table td {
+        padding: 8px !important;
+        font-size: 12px !important;
+    }
+}
+
+
+.dashboard-container {
+    padding: 20px !important;
+    font-family: Arial, sans-serif !important;
+    background-color: #f4f4f9 !important;
+}
+
+/* Page Title */
+.dashboard-title {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    color: #333 !important;
+    margin-bottom: 20px !important;
+}
+
+/* Card Styling */
+.card {
+    background: white !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) !important;
+    margin-bottom: 20px !important;
+}
+
+/* Card Titles */
+.card-title {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #444 !important;
+    margin-bottom: 15px !important;
+}
+
+/* Table Styling */
+.table-container {
+    overflow-x: auto !important;
+}
+
+.table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    background: white !important;
+}
+
+.table th, .table td {
+    padding: 10px !important;
+    text-align: left !important;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.table th {
+    background: #f1f1f1 !important;
+    color: #333 !important;
+}
+
+.table tr:hover {
+    background: #f9f9f9 !important;
+}
+
+/* Chart & Calendar */
+.chart-container, .calendar-container {
+    padding: 15px !important;
+    background: white !important;
+    border-radius: 8px !important;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) !important;
+    margin-bottom: 20px !important;
+}
+
+/* Calendar Styling */
+.rbc-calendar {
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+}
